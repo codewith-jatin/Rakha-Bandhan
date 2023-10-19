@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(#ffa500,#ffffff,hwb(120 36% 0%));
+    background-attachment: fixed;
+}
+.row{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.col{
+    width: 100%;
+    padding: 100px 50px;
+}
+.col h1{
+    font-size: 60px;
+    margin: 15px 0;
+    /* text-decoration: underline; */
+}
+.col h2{
+    font-size: 45px;
+}
+.col h3{
+    font-size: 40px;
+}
+.col h4{
+    font-size: 29.5px;
+}
+.col-5{
+    width: 50%;
+}
+.col-5 img{
+    width: 100%;
+}
+input{
+    display: inline-block;
+    height: 35px;
+    width: 130px;
+    text-transform: capitalize;
+    border:dotted black;
+    text-align: justify;
+    margin: 2px;
+    padding: -2px 4px 8px;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
